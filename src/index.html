@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,83 @@
   <!-- css-taiwind-cdn -->
  <script src="https://cdn.tailwindcss.com"></script>
 
+ <!-- font-awsome-cdn -->
+<script src="https://kit.fontawesome.com/616e0f46a0.js" crossorigin="anonymous"></script>
+
     
 </head>
 <body>
+    <header class="bg-[#F6F6F6] w-[90%] mx-auto">
+        <div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <a class="btn btn-ghost  font-bold text-[28px]"><span class="bg-lime-300 w-[30px] h-[30x] rounded-[50%]"><i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -45deg;""></i></span> Rinterio</a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 font-semibold">
+      <li class="text-[#7a7a7a] hover:text-[black] duration-300 ease-out"><a>Home</a></li>    
+      <li class="text-[#7a7a7a] hover:text-[black] duration-300 ease-out"><a>Serivces</a></li>
+      <li class="text-[#7a7a7a] hover:text-[black] duration-300 ease-out"><a>Portfolio</a></li>
+      <li class="text-[#7a7a7a] hover:text-[black] duration-300 ease-out"><a>Blogs</a></li>
+      <li class="text-[#7a7a7a] hover:text-[black] duration-300 ease-out"><a>Contact us</a></li>
+    </ul>
+  </div>
+  <!-- for desktop-device -->
+   
+  <div class="navbar-end">
+    <span class="max-[640px]:hidden lg:cursor-pointer lg:pr-6 md:cursor-pointer md:pr-6">
+          <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #a9aaad;"></i>
+    </span>
+
+    <span class="max-[640px]:hidden lg:cursor-pointer lg:pr-12 md:cursor-pointer md:pr-12">
+           <i class="fa-solid fa-cart-shopping fa-xl" style="color: #a6aab0;"></i> 
+    </span>
+    <a class="btn max-[640px]:hidden bg-lime-400 text-gray-900 font-bold rounded-3xl text-xl">Book Consult<span class="bg-gray-900 rounded-[50%] w-[25px] h-[25px]"><i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -45deg;color: white;"></i></span></a>
+ 
+  <!-- for-mobile device -->
+   <div class="dropdown lg:hidden md:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a>Item 1</a></li>
+        <li>
+          <a>Parent</a>
+          <ul class="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        <li><a>Item 3</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
