@@ -34,11 +34,11 @@
   <!-- for desktop-device -->
    
   <div class="navbar-end">
-    <span class="max-[640px]:hidden lg:cursor-pointer lg:pr-6">
+    <span class="hidden lg:cursor-pointer lg:pr-6">
           <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #a9aaad;"></i>
     </span>
 
-    <span class="max-[640px]:hidden lg:cursor-pointer lg:pr-12">
+    <span class="hidden lg:cursor-pointer lg:pr-12">
            <i class="fa-solid fa-cart-shopping fa-xl" style="color: #a6aab0;"></i> 
     </span>
     <a class="btn max-[640px]:hidden bg-lime-400 text-gray-900 font-bold rounded-3xl text-xl">Book Consult<span class="bg-gray-900 rounded-[50%] w-[25px] h-[25px]"><i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -45deg;color: white;"></i></span></a>
@@ -59,19 +59,6 @@
             d="M4 6h16M4 12h8m-8 6h16" />
         </svg>
       </div>
-      <ul
-        tabindex="0"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-        <li>
-          <a>Parent</a>
-          <ul class="p-2">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
     </div>
   </div>
 </div>
@@ -79,27 +66,77 @@
    
   <!-- hero-secition -->
 
-  <section class=" pt-3 h-[680px] max-[640px]:h-[750px]">
-    <div class="items-center justify-center flex max-[640px]:w-[70%] max-[640px]:h-[40%] max-[640px]:mx-auto">
-        <img src="../assets/banner.png" alt="hero">
+  <section class="container">
+  <div>
+    <img class="mx-auto" src="../assets/banner.png" alt="banner">
+  </div>
+   
+  <div>
+    <h1 class="lg:text-[65px] text-[24px] font-bold w-[70%] lg:leading-[85px] mx-auto text-center">A barn house of this design has a striking appearance</h1>
+    <p class="text-center lg:w-[70%] mx-auto pt-3">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
 
-
+    <div class=" lg:pt-5 lg:w-[15%] mx-auto w-[55%]">
+      
+     <a class=" btn bg-lime-300 text-gray-900 font-bold rounded-3xl mt-3 w-[330px] lg:w-[220px] text-xl">View Details<span class="bg-[#ABEF5F] rounded-[50%] w-[25px] h-[25px]"><i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -45deg;color: black;"></i></span></a>
     </div>
-    <div class="flex flex-col text-center pt-5 font-bold">
-        <h1 class="lg:text-[60px] lg:w-[65%] lg:mx-auto lg:leading-[72px] max-[640px]:text-[32px] ">A barn house of this design has a striking appearance</h1>
-        <p class="max-[640px]:w-[90%] max-[640px]:mx-auto max-[640px]:pt-2 w-[60%] mx-auto pt-3 lg:text-[17px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
 
-        <span class="max-[640px]:pt-9 pt-7">
-              <a class="btn bg-lime-200 text-gray-900 font-[700] max-[640px]:w-[65%] rounded-3xl text-xl ">View Details<span class="bg-green-500 rounded-[50%] w-[25px] h-[25px]"><i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -45deg;color: white;"></i></span></a>
-        </span> 
-    </div>   
-  </section>
+  </div>
+ </section>
   
   <!-- hero-section end here -->
 
  </header>
 
-    <main class="w-[90%] mx-auto">
+    <main class=" mt-5 lg:mt-8 bg-[#F4F4F4]">
+        <!-- About us section -->
+    <section class="border-2 border-blue-700 w-[82%] h-[660px] mx-auto ">
+       
+     <div class="lg:w-[55%] lg:p-7 ">
+         <span class="flex items-center justify-center lg:items-start lg:justify-start">
+           <button type="submit" class="btn font-semibold  mt-4 lg:mt-1 rounded-3xl w-[155px] bg-white"><span><i class="fa-solid fa-arrow-right"></i></span>About Us</button>
+         </span>
+
+         
+            <h1 class="text-[28px] w-[65%] lg:w-[100%] mx-auto lg:text-[65px] font-bold lg:text-start text-center text-black">We design thoughtful, liveable spaces</h1>
+         <p class="text-center lg:text-[18px] lg:w-[89%] lg:text-left lg:pb-2">The barn house captivates with its blend of rustic charm and     
+          modern sophistication, featuring weathered wood, sleek metal accents.</p>
+       
+
+        <!-- commercial-span -->
+
+          <span class="bg-white rounded-xl lg:w-[70%] w-[90%] lg:mt-6 mt-4 h-[130px] lg:mx-0 mx-auto lg:h-[120px] flex justify-center items-center">
+               <img class="p-8" src="../assets/commercial.png" alt="#">
+
+               <span class="p-2">
+                 <h3 class="font-bold text-[19px]">Commercial</h3>
+               <p class="text-[#B9B9B9]">The barn house captivates with its blend of rustic charm and modern.</p>
+               </span>
+        </span>
+        
+             <!-- Residential-span -->
+
+             <span class="bg-white rounded-xl lg:w-[70%] w-[90%] lg:mt-6 mt-4 h-[130px] lg:mx-0 mx-auto lg:h-[120px] flex justify-center items-center">
+               <img class="p-8" src="../assets/residential.png" alt="#">
+
+               <span class="p-2">
+                 <h3 class="font-bold text-[19px]">Residential</h3>
+               <p class="text-[#B9B9B9]">The barn house captivates with its blend of rustic charm and modern.</p>
+               </span>
+        </span>
+
+      </div>
+
+     
+       
+      <div>
+
+      </div>
+    </section>
+
+
+
+
+
    
          
     </main>
