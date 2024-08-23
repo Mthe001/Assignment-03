@@ -13,9 +13,29 @@
  <!-- font-awsome-cdn -->
 <script src="https://kit.fontawesome.com/616e0f46a0.js" crossorigin="anonymous"></script>
 
+<!-- manrope = cdn -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+
+<script>
+  tailwind.config = {
+      theme: {
+    extend: {
+      fontFamily: {
+        manrope: ['Manrope', 'sans-serif'],
+
+      },
+    },
+  },
+}
+</script>
+
     
 </head>
-<body>
+<body class="font-manrope">
     <header class="bg-[#F6F6F6] w-[90%] mx-auto h-[760px] lg:h-[800px] container">
         <div class="navbar bg-base-100">
   <div class="navbar-start">
